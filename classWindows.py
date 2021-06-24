@@ -1,6 +1,7 @@
 from tkinter import *
 
 class Window:
+
     def __init__(self, width, height, title='MyWindow', resizable=(False, False), icon=None):
         self.root = Tk()
         self.root.title(title)

@@ -5,6 +5,8 @@ import time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
+# Попытка свести логику консоли и графический интерфейс
+
 list_urls = []
 
 def wind():
